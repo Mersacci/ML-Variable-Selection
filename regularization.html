@@ -1,0 +1,4125 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>d92d684b9cc14a18b0d716cc5407a06a</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="machine-learning---regularization" class="cell markdown" id="28dGtpzzo_lq">
+<h1>Machine Learning - Regularization</h1>
+<h2 id="masaccio-braun">Masaccio Braun</h2>
+</section>
+<div class="cell code" data-execution_count="1" id="T1qRuqw7q7dc">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Imports</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># General libraries</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib <span class="im">as</span> mpl</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Cross Validation</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> KFold</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Model Evaluation</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error <span class="im">as</span> mse</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> r2_score <span class="im">as</span> r2</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="co"># GridSearchCV Compliancy</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> GridSearchCV</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.base <span class="im">import</span> BaseEstimator, RegressorMixin</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Regressors</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> Lasso, Ridge, ElasticNet</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Data Synth</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> math <span class="im">import</span> ceil</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy <span class="im">import</span> linalg</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.datasets <span class="im">import</span> make_spd_matrix</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.optimize <span class="im">import</span> minimize</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.linalg <span class="im">import</span> toeplitz</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="2" id="Y8DDwpVfq7f0">
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Synthesize fictional data</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># size of datasets</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>n <span class="op">=</span> <span class="dv">200</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>p <span class="op">=</span> <span class="dv">1200</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># standard deviation of the noise</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>sigma <span class="op">=</span> <span class="fl">3.5</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># mean values of the sample.</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>mu <span class="op">=</span> [<span class="dv">0</span>]<span class="op">*</span>p</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="co"># correlation</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>rho <span class="op">=</span> <span class="fl">0.8</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="co"># beta*</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>beta_star <span class="op">=</span> np.concatenate([[<span class="dv">1</span>]<span class="op">*</span><span class="dv">7</span>, [<span class="dv">0</span>]<span class="op">*</span><span class="dv">25</span>, [<span class="fl">0.25</span>]<span class="op">*</span><span class="dv">5</span>, [<span class="dv">0</span>]<span class="op">*</span><span class="dv">50</span>, [<span class="fl">0.7</span>]<span class="op">*</span><span class="dv">15</span>, [<span class="dv">0</span>]<span class="op">*</span><span class="dv">1098</span>])</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>pos <span class="op">=</span> np.where(beta_star<span class="op">!=</span><span class="dv">0</span>)</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="co"># covariance matrix</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>v <span class="op">=</span> []</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(p):</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>  v.append(<span class="fl">0.8</span><span class="op">**</span>i)</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="co"># generate the datasets</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>datasets <span class="op">=</span> []</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>weights <span class="op">=</span> []</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, <span class="dv">101</span>):</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>  np.random.seed(i)</span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>  x <span class="op">=</span> np.random.multivariate_normal(mu, toeplitz(v), size<span class="op">=</span>n)</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>  y <span class="op">=</span> np.matmul(x, beta_star) <span class="op">+</span> sigma<span class="op">*</span>np.random.normal(<span class="dv">0</span>, <span class="dv">1</span>, size<span class="op">=</span>n)</span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>  datasets.append(x)</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>  weights.append(y.reshape(<span class="op">-</span><span class="dv">1</span>,<span class="dv">1</span>))</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="3" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="yVKbdkDkEVPK" data-outputId="ff62fa6f-4ce3-4ae4-a8ba-532e21935437">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>datasets[<span class="dv">0</span>].shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<pre><code>(200, 1200)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="4" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="dRZ0SNpbkr6D" data-outputId="dcb90359-3308-4d4b-dfcb-6bba8d669e2d">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>weights[<span class="dv">0</span>].shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<pre><code>(200, 1)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="5" id="B21uXn9tfIYl">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create hyperparameter ranges for GridSearch optimization</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>alpha_range <span class="op">=</span> np.arange(<span class="fl">.1</span>, <span class="fl">.9</span>, <span class="fl">.05</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>llambda_range<span class="op">=</span> np.arange(<span class="fl">.1</span>, <span class="fl">1.9</span>, <span class="fl">.05</span>)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>l1_range <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">1</span>, num<span class="op">=</span><span class="dv">20</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="6" id="k6DW5uNILNjn">
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define cross validation function</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>kf <span class="op">=</span> KFold(n_splits<span class="op">=</span><span class="dv">10</span>, shuffle<span class="op">=</span><span class="va">True</span>, random_state<span class="op">=</span><span class="dv">410</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="VYPWowcA4uwV">
+<p>Here, we want to define our function to perform GridSearch, perform a KFold cross validation, calculate R^2 score, calculate mean squared erros, compute number of true beta intersections, compute Euclidean distances between ground truths and predictions, on each of our functions</p>
+</div>
+<div class="cell code" data-execution_count="7" id="eOG_t0YdzEIH">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> test(model, key, params):</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    score_results <span class="op">=</span> {}</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    true_results <span class="op">=</span> {}</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    dist_results <span class="op">=</span> {}</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    rmse_results <span class="op">=</span> {}</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="dv">100</span>):</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>        score_test <span class="op">=</span> []</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>        true_beta <span class="op">=</span> []</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>        dist_beta <span class="op">=</span> []</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>        rmse_test <span class="op">=</span> []</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>        X <span class="op">=</span> datasets[i]</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>        Y <span class="op">=</span> weights[i]</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>        modelcv <span class="op">=</span> {key: GridSearchCV(model, param_grid<span class="op">=</span>params).fit(X, Y).best_estimator_}</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> idxtrain, idxtest <span class="kw">in</span> kf.split(X):</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>            xtrain <span class="op">=</span> X[idxtrain,:]</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>            ytrain <span class="op">=</span> Y[idxtrain]</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>            xtest  <span class="op">=</span> X[idxtest,:]</span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>            ytest  <span class="op">=</span> Y[idxtest]</span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>            beta_hat <span class="op">=</span> modelcv[key].coef_</span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>            pos_model <span class="op">=</span> np.where(beta_hat<span class="op">!=</span><span class="dv">0</span>)</span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a>            modelcv[key].fit(xtrain, ytrain)</span>
+<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a>            score_test.append(r2(ytest, modelcv[key].predict(xtest)))</span>
+<span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a>            true_beta.append(np.intersect1d(pos, pos_model).shape[<span class="dv">0</span>])</span>
+<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a>            dist_beta.append(np.linalg.norm(beta_hat<span class="op">-</span>beta_star, <span class="bu">ord</span><span class="op">=</span><span class="dv">2</span>))</span>
+<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a>            rmse_test.append(np.sqrt(mse(ytest, modelcv[key].predict(xtest))))</span>
+<span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-35"><a href="#cb9-35" aria-hidden="true" tabindex="-1"></a>            score_test <span class="op">=</span> [np.mean(score_test)]</span>
+<span id="cb9-36"><a href="#cb9-36" aria-hidden="true" tabindex="-1"></a>            true_beta <span class="op">=</span> [np.mean(true_beta)]</span>
+<span id="cb9-37"><a href="#cb9-37" aria-hidden="true" tabindex="-1"></a>            dist_beta <span class="op">=</span> [np.mean(dist_beta)]</span>
+<span id="cb9-38"><a href="#cb9-38" aria-hidden="true" tabindex="-1"></a>            rmse_test <span class="op">=</span> [np.mean(rmse_test)]</span>
+<span id="cb9-39"><a href="#cb9-39" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb9-40"><a href="#cb9-40" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> k <span class="kw">in</span> score_test:</span>
+<span id="cb9-41"><a href="#cb9-41" aria-hidden="true" tabindex="-1"></a>            score_results.setdefault(<span class="st">&#39;R^2&#39;</span>, [])</span>
+<span id="cb9-42"><a href="#cb9-42" aria-hidden="true" tabindex="-1"></a>            score_results[<span class="st">&#39;R^2&#39;</span>].append(k)</span>
+<span id="cb9-43"><a href="#cb9-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-44"><a href="#cb9-44" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> l <span class="kw">in</span> true_beta:</span>
+<span id="cb9-45"><a href="#cb9-45" aria-hidden="true" tabindex="-1"></a>            true_results.setdefault(<span class="st">&#39;True Intersections&#39;</span>, [])</span>
+<span id="cb9-46"><a href="#cb9-46" aria-hidden="true" tabindex="-1"></a>            true_results[<span class="st">&#39;True Intersections&#39;</span>].append(l)</span>
+<span id="cb9-47"><a href="#cb9-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-48"><a href="#cb9-48" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> m <span class="kw">in</span> dist_beta:</span>
+<span id="cb9-49"><a href="#cb9-49" aria-hidden="true" tabindex="-1"></a>            dist_results.setdefault(<span class="st">&#39;Euclidean Distance&#39;</span>, [])</span>
+<span id="cb9-50"><a href="#cb9-50" aria-hidden="true" tabindex="-1"></a>            dist_results[<span class="st">&#39;Euclidean Distance&#39;</span>].append(m)</span>
+<span id="cb9-51"><a href="#cb9-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-52"><a href="#cb9-52" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> n <span class="kw">in</span> rmse_test:</span>
+<span id="cb9-53"><a href="#cb9-53" aria-hidden="true" tabindex="-1"></a>            rmse_results.setdefault(<span class="st">&#39;Root MSE&#39;</span>, [])</span>
+<span id="cb9-54"><a href="#cb9-54" aria-hidden="true" tabindex="-1"></a>            rmse_results[<span class="st">&#39;Root MSE&#39;</span>].append(n)</span>
+<span id="cb9-55"><a href="#cb9-55" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb9-56"><a href="#cb9-56" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> score_results, true_results, dist_results, rmse_results</span></code></pre></div>
+</div>
+<div class="cell markdown" id="iOIywp415hTL">
+<p>The output from this function will be grafted into a pandas DataFrame, reflecting the values for each of the 100 datasets.</p>
+</div>
+<section id="lasso" class="cell markdown" id="XFQgtR650mFO">
+<h2>Lasso</h2>
+</section>
+<div class="cell code" data-execution_count="90" id="geJsW1k10ruj">
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>lasso <span class="op">=</span> Lasso(fit_intercept<span class="op">=</span><span class="va">False</span>, max_iter<span class="op">=</span><span class="dv">10000</span>)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>lasso_params <span class="op">=</span> {<span class="st">&#39;alpha&#39;</span>:alpha_range}</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>score_lasso, true_lasso, dist_lasso, rmse_lasso <span class="op">=</span> test(lasso, <span class="st">&#39;Lasso&#39;</span>, lasso_params)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="1PNMh72XKagE">
+<p>Average R^2 Values</p>
+</div>
+<div class="cell code" data-execution_count="91" data-colab="{&quot;height&quot;:424,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="By_AXF2MKLQn" data-outputId="99b18eda-ac6b-4931-b723-908bcbc7ad4e">
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(score_lasso)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="91">
+
+  <div id="df-2acb3335-348e-4eb5-9d32-f409608a29ef">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>R^2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0.744939</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.796817</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0.716597</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0.824659</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0.831423</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>0.783917</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>0.790209</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>0.760883</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>0.751776</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>0.820816</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-2acb3335-348e-4eb5-9d32-f409608a29ef')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-2acb3335-348e-4eb5-9d32-f409608a29ef button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-2acb3335-348e-4eb5-9d32-f409608a29ef');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="svkkn7zmKbCi">
+<p>Average number of true nonzero beta coefficients</p>
+</div>
+<div class="cell code" data-execution_count="92" data-colab="{&quot;height&quot;:424,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="NjQSbU-0KLUA" data-outputId="e836c0c4-a4a3-465c-9d15-b1f34224f627">
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(true_lasso)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="92">
+
+  <div id="df-3434acf2-5cb5-41a9-a06f-3adc7e6ce4b7">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>True Intersections</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>20.595703</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>19.755859</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>19.203125</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>18.658203</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>20.542969</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>20.572266</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>24.400391</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>21.470703</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>20.919922</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>21.357422</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-3434acf2-5cb5-41a9-a06f-3adc7e6ce4b7')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-3434acf2-5cb5-41a9-a06f-3adc7e6ce4b7 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-3434acf2-5cb5-41a9-a06f-3adc7e6ce4b7');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="juxFpMR7KbmV">
+<p>Average L2 Euclidean Distance between predicted and actual beta coefficients</p>
+</div>
+<div class="cell code" data-execution_count="93" data-colab="{&quot;height&quot;:424,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="Et4sAUGCKLWp" data-outputId="12c24df5-3abe-4cc6-aeaf-ef27d9c8050d">
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(dist_lasso)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="93">
+
+  <div id="df-866e16a6-f2e0-4332-9a21-a224832f94bb">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Euclidean Distance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2.745131</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2.385645</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3.063248</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3.026920</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2.459940</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>2.475489</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>2.535271</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>2.512320</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>2.520988</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>2.317678</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-866e16a6-f2e0-4332-9a21-a224832f94bb')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-866e16a6-f2e0-4332-9a21-a224832f94bb button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-866e16a6-f2e0-4332-9a21-a224832f94bb');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="0csKb9jxKcMg">
+<p>Average Root Mean Squared Errors</p>
+</div>
+<div class="cell code" data-execution_count="94" data-colab="{&quot;height&quot;:424,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="f6zk5wuOKLZY" data-outputId="1a9821ca-83f3-475c-b4d4-e3da517f2867">
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(rmse_lasso)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="94">
+
+  <div id="df-dabd14b0-74d2-479a-acba-7de00fe806ca">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Root MSE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>4.109129</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>4.796841</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3.898047</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4.135223</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4.144174</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>3.756579</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>3.685120</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>4.742243</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>4.216915</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>3.935428</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-dabd14b0-74d2-479a-acba-7de00fe806ca')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-dabd14b0-74d2-479a-acba-7de00fe806ca button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-dabd14b0-74d2-479a-acba-7de00fe806ca');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<section id="ridge" class="cell markdown" id="f81CkF8o1p4d">
+<h2>Ridge</h2>
+</section>
+<div class="cell code" data-execution_count="95" id="sAfr83t41tdx">
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>ridge <span class="op">=</span> Ridge(fit_intercept<span class="op">=</span><span class="va">False</span>, max_iter<span class="op">=</span><span class="dv">10000</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>ridge_params <span class="op">=</span> {<span class="st">&#39;alpha&#39;</span>:alpha_range}</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>score_ridge, true_ridge, dist_ridge, rmse_ridge <span class="op">=</span> test(ridge, <span class="st">&#39;Ridge&#39;</span>, ridge_params)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="1uLonKyd5zNL">
+<p>Average R^2 Values</p>
+</div>
+<div class="cell code" data-execution_count="96" data-colab="{&quot;height&quot;:424,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="8M8wq1O96b1N" data-outputId="22998a17-16bf-4237-d14d-f786a49b75d1">
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(score_ridge)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="96">
+
+  <div id="df-5bedbf39-f8cf-4da4-885e-6c1ddc903207">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>R^2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0.488009</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.559712</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0.344444</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0.507971</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0.631290</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>0.275324</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>0.387033</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>0.498613</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>0.486682</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>0.666905</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-5bedbf39-f8cf-4da4-885e-6c1ddc903207')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-5bedbf39-f8cf-4da4-885e-6c1ddc903207 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-5bedbf39-f8cf-4da4-885e-6c1ddc903207');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="HjWiZCHt56yV">
+<p>Average number of true nonzero beta coefficients</p>
+</div>
+<div class="cell code" data-execution_count="97" data-colab="{&quot;height&quot;:424,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="4cd5T9zW6cKs" data-outputId="c8dafd35-a577-4d6e-87a5-159b3d7191b9">
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(true_ridge)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="97">
+
+  <div id="df-657ef97f-32b1-4611-ba56-a0fd75b86fa9">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>True Intersections</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>27.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-657ef97f-32b1-4611-ba56-a0fd75b86fa9')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-657ef97f-32b1-4611-ba56-a0fd75b86fa9 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-657ef97f-32b1-4611-ba56-a0fd75b86fa9');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="p5HFKh0Z6I0E">
+<p>Average L2 Euclidean Distance between predicted and actual beta coefficients</p>
+</div>
+<div class="cell code" data-execution_count="98" data-colab="{&quot;height&quot;:424,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="U8TSCMxq6crz" data-outputId="a35385de-55e8-4cf9-8563-ee9bf72cd8bc">
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(dist_ridge)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="98">
+
+  <div id="df-d4e46c90-863f-4b83-8ed5-8b8b02a3d665">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Euclidean Distance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>3.232952</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>3.177313</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3.191959</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3.211997</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>3.176034</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>3.141246</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>3.183053</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>3.167339</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>3.053456</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>3.070925</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-d4e46c90-863f-4b83-8ed5-8b8b02a3d665')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-d4e46c90-863f-4b83-8ed5-8b8b02a3d665 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-d4e46c90-863f-4b83-8ed5-8b8b02a3d665');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="f7gD5I1B6PEb">
+<p>Average Root Mean Squared Errors</p>
+</div>
+<div class="cell code" data-execution_count="99" data-colab="{&quot;height&quot;:424,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="DDqpQJVc6dLe" data-outputId="ea7298fd-480c-48d9-c84a-5a916c2ca6c2">
+<div class="sourceCode" id="cb19"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(rmse_ridge)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="99">
+
+  <div id="df-141c9f5f-bc0f-4dad-82d4-5f4e07542934">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Root MSE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>5.786796</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>7.110328</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>6.228025</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>6.952360</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>6.088267</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>7.038375</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>6.352211</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>6.882559</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>6.168312</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>5.372624</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-141c9f5f-bc0f-4dad-82d4-5f4e07542934')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-141c9f5f-bc0f-4dad-82d4-5f4e07542934 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-141c9f5f-bc0f-4dad-82d4-5f4e07542934');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<section id="elastic-net" class="cell markdown" id="z888brTk1qLA">
+<h2>Elastic Net</h2>
+</section>
+<div class="cell code">
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>elasticnet <span class="op">=</span> ElasticNet(fit_intercept<span class="op">=</span><span class="va">False</span>, max_iter<span class="op">=</span><span class="dv">1000</span>)</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>elasticnet_params <span class="op">=</span> {<span class="st">&#39;alpha&#39;</span>:alpha_range, <span class="st">&#39;l1_ratio&#39;</span>:l1_range}</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>score_elasticnet, true_elasticnet, dist_elasticnet, rmse_elasticnet <span class="op">=</span> test(elasticnet, <span class="st">&#39;ElasticNet&#39;</span>, elasticnet_params)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="i_6ryvQe6EKV">
+<p>Average R^2 Values</p>
+</div>
+<div class="cell code" data-execution_count="9" id="SZ-JQKxS6nof">
+<div class="sourceCode" id="cb21"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(score_elasticnet)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>R^2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0.742550</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.802165</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0.721686</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0.824659</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0.831307</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>0.750476</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>0.767672</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>0.844572</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>0.783737</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>0.859799</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>0.789469</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>0.766520</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>0.771961</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>0.852188</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>0.744721</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>0.869481</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>0.822913</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>0.832526</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>0.782715</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>0.836707</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>0.756816</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>0.783626</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>0.848681</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>0.765764</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>0.822228</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>0.804010</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>0.811013</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>0.670471</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>0.814354</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>0.796847</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>0.829637</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>0.811758</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>0.785810</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>0.800108</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>0.793013</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>0.799519</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>0.792024</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>0.857116</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>0.754842</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>0.736927</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>0.667649</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>0.817214</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>0.816656</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>0.821710</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>0.791043</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>0.815993</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>0.776818</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>0.821964</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>0.725404</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>0.878815</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>0.835296</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>0.704012</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>0.775967</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>0.831073</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>0.734325</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>0.787072</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>0.800149</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>0.755384</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>0.765591</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>0.824555</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown" id="BjzGeysK58B6">
+<p>Average number of true nonzero beta coefficients</p>
+</div>
+<div class="cell code" data-execution_count="10" id="by_nYPEL6oM4">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(true_elasticnet)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="10">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>True Intersections</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>23.970703</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>20.500000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>23.806641</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>18.658203</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>21.562500</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>24.458984</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>23.634766</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>20.982422</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>22.281250</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>22.101562</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>22.656250</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>20.978516</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>23.054688</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>20.431641</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>22.687500</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>22.988281</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>20.812500</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>25.328125</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>23.064453</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>18.769531</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>23.359375</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>22.007812</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>23.800781</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>23.189453</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>24.285156</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>22.898438</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>20.890625</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>20.896484</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>23.876953</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>25.025391</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>23.171875</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>24.250000</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>20.734375</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>24.859375</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>21.726562</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>23.587891</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>24.230469</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>22.564453</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>24.126953</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>17.492188</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>23.666016</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>23.804688</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>25.187500</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>22.474609</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>22.933594</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>23.357422</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>22.371094</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>24.533203</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>19.292969</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>23.802734</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>19.519531</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>19.484375</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>18.250000</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>21.166016</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>22.339844</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>22.199219</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>24.718750</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>26.888672</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>22.666016</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>24.236328</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown" id="rCtuSbRE6JJ-">
+<p>Average L2 Euclidean Distance between predicted and actual beta coefficients</p>
+</div>
+<div class="cell code" data-execution_count="11" id="ImizZg256oo1">
+<div class="sourceCode" id="cb23"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(dist_elasticnet)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Euclidean Distance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1.724897</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2.200686</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1.861663</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3.026920</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2.278679</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2.150957</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>1.841832</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2.368168</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>1.976310</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2.922449</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>1.804702</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2.320013</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2.369637</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>3.000679</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2.439200</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>1.592095</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2.574732</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2.062053</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>1.708783</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2.310787</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>1.926780</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2.151041</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>1.919805</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>1.702235</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>1.726563</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>1.837537</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>2.376711</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>2.057762</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>2.166864</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>1.952491</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>1.982454</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>2.127711</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>1.942027</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>1.631012</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>2.636691</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>1.978574</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>1.719286</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>1.708637</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>1.527641</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>2.965314</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>2.043497</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>1.889976</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>2.193967</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>2.534067</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>2.074020</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>2.041197</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>2.099573</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>1.984562</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>2.819510</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>2.147263</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>2.871887</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>2.980096</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>2.865636</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>2.319568</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>1.945743</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>2.058321</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>1.715426</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>1.758036</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>1.728674</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>1.882455</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown" id="NNmOuvBC6PcY">
+<p>Average Root Mean Squared Errors</p>
+</div>
+<div class="cell code" data-execution_count="12" id="t5WbhF0A6pEP">
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(rmse_elasticnet)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="12">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Root MSE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>4.126464</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>4.741453</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3.892702</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4.135223</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4.148536</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>4.137816</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>4.245320</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>3.672516</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>4.552917</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>3.325108</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>4.586065</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>4.111933</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>3.557974</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>3.738888</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>4.185271</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>3.381423</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>4.613064</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>3.427845</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>4.062539</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>3.762160</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>3.989123</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>4.487475</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>3.672945</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>3.823953</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>3.740043</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>4.383723</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>4.287038</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>4.521871</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>4.562537</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>3.587162</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>4.129071</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>4.125541</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>3.926267</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>4.154610</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>3.837687</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>3.676687</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>4.352778</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>3.468277</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>4.738736</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>3.800560</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>4.073321</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>4.365408</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>3.864674</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>3.800884</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>4.226455</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>3.490671</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>4.110622</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>3.804579</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>4.393555</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>3.157931</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>3.394592</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>4.750488</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>4.541931</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>4.068108</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>4.806248</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>3.721127</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>3.604027</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>4.767018</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>4.124831</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>3.914693</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+</div>
+</div>
+<section id="square-root-lasso" class="cell markdown" id="3HgAujHsh-Zk">
+<h2>Square Root Lasso</h2>
+</section>
+<div class="cell code" data-execution_count="109" id="iU2SaNn8iqsT">
+<div class="sourceCode" id="cb25"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define our SKLearn compliant Square Root Lasso function</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> SqRtLasso(BaseEstimator, RegressorMixin):</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, max_iter<span class="op">=</span><span class="dv">50000</span>, alpha<span class="op">=</span><span class="fl">0.01</span>):</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.max_iter, <span class="va">self</span>.alpha <span class="op">=</span> max_iter, alpha</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>   </span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> fit(<span class="va">self</span>, x, y):</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>        alpha <span class="op">=</span> <span class="va">self</span>.alpha</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>        max_iter <span class="op">=</span> <span class="va">self</span>.max_iter</span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>        <span class="kw">def</span> f_obj(x, y, beta, alpha):</span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>            n <span class="op">=</span><span class="bu">len</span>(x)</span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>            output <span class="op">=</span> np.sqrt(<span class="dv">1</span><span class="op">/</span>n<span class="op">*</span>np.<span class="bu">sum</span>((y<span class="op">-</span>x.dot(beta))<span class="op">**</span><span class="dv">2</span>)) <span class="op">+</span> alpha<span class="op">*</span>np.<span class="bu">sum</span>(np.<span class="bu">abs</span>(beta))</span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> output</span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a>        <span class="kw">def</span> f_grad(x, y, beta, alpha):</span>
+<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a>            n <span class="op">=</span> x.shape[<span class="dv">0</span>]</span>
+<span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a>            p <span class="op">=</span> x.shape[<span class="dv">1</span>]</span>
+<span id="cb25-18"><a href="#cb25-18" aria-hidden="true" tabindex="-1"></a>            beta <span class="op">=</span> beta.flatten()</span>
+<span id="cb25-19"><a href="#cb25-19" aria-hidden="true" tabindex="-1"></a>            beta <span class="op">=</span> beta.reshape(<span class="op">-</span><span class="dv">1</span>,<span class="dv">1</span>)</span>
+<span id="cb25-20"><a href="#cb25-20" aria-hidden="true" tabindex="-1"></a>            output <span class="op">=</span> np.array((<span class="op">-</span><span class="dv">1</span><span class="op">/</span>np.sqrt(n))<span class="op">*</span>np.transpose(x).dot(y<span class="op">-</span>x.dot(beta))<span class="op">/</span>np.sqrt(np.<span class="bu">sum</span>((y<span class="op">-</span>x.dot(beta))<span class="op">**</span><span class="dv">2</span>))<span class="op">+</span>alpha<span class="op">*</span>np.sign(beta)).flatten()</span>
+<span id="cb25-21"><a href="#cb25-21" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb25-22"><a href="#cb25-22" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> output</span>
+<span id="cb25-23"><a href="#cb25-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-24"><a href="#cb25-24" aria-hidden="true" tabindex="-1"></a>        <span class="kw">def</span> objective(beta):</span>
+<span id="cb25-25"><a href="#cb25-25" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span>(f_obj(x, y, beta, alpha))</span>
+<span id="cb25-26"><a href="#cb25-26" aria-hidden="true" tabindex="-1"></a>      </span>
+<span id="cb25-27"><a href="#cb25-27" aria-hidden="true" tabindex="-1"></a>        <span class="kw">def</span> gradient(beta):</span>
+<span id="cb25-28"><a href="#cb25-28" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span>(f_grad(x, y, beta, alpha))</span>
+<span id="cb25-29"><a href="#cb25-29" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb25-30"><a href="#cb25-30" aria-hidden="true" tabindex="-1"></a>        beta0 <span class="op">=</span> np.ones((x.shape[<span class="dv">1</span>], <span class="dv">1</span>))</span>
+<span id="cb25-31"><a href="#cb25-31" aria-hidden="true" tabindex="-1"></a>        output <span class="op">=</span> minimize(objective, beta0, method<span class="op">=</span><span class="st">&#39;L-BFGS-B&#39;</span>, jac<span class="op">=</span>gradient, options<span class="op">=</span>{<span class="st">&#39;gtol&#39;</span>:<span class="fl">1e-8</span>,<span class="st">&#39;max_iter&#39;</span>:<span class="va">self</span>.max_iter,<span class="st">&#39;maxls&#39;</span>:<span class="dv">25</span>,<span class="st">&#39;disp&#39;</span>:<span class="va">True</span>})</span>
+<span id="cb25-32"><a href="#cb25-32" aria-hidden="true" tabindex="-1"></a>        beta <span class="op">=</span> output.x</span>
+<span id="cb25-33"><a href="#cb25-33" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.coef_ <span class="op">=</span> beta</span>
+<span id="cb25-34"><a href="#cb25-34" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb25-35"><a href="#cb25-35" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> predict(<span class="va">self</span>, x):</span>
+<span id="cb25-36"><a href="#cb25-36" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> x.dot(<span class="va">self</span>.coef_)</span></code></pre></div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb26"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>sqrtlasso <span class="op">=</span> SqRtLasso(max_iter<span class="op">=</span><span class="dv">10000</span>)</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>sqrtlasso_params <span class="op">=</span> {<span class="st">&#39;alpha&#39;</span>:alpha_range}</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>score_sqrtlasso, true_sqrtlasso, dist_sqrtlasso, rmse_sqrtlasso <span class="op">=</span> test(sqrtlasso, <span class="st">&#39;SqRtLasso&#39;</span>, sqrtlasso_params)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="Rj7iVF7E6Eq_">
+<p>Average R^2 Values</p>
+</div>
+<div class="cell code" data-execution_count="111" data-colab="{&quot;height&quot;:424,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="5xCpGle767hP" data-outputId="951be403-5f5b-4120-fd92-ee5e49840b64">
+<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(score_sqrtlasso)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="111">
+
+  <div id="df-b5d22609-466b-4319-8393-7c85ffa98d6f">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>R^2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0.688335</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.791350</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0.617472</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0.781551</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0.770842</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>0.677590</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>0.729034</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>0.626359</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>0.728675</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>0.805850</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-b5d22609-466b-4319-8393-7c85ffa98d6f')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-b5d22609-466b-4319-8393-7c85ffa98d6f button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-b5d22609-466b-4319-8393-7c85ffa98d6f');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="V-cqqzhP59OP">
+<p>Average number of true nonzero beta coefficients</p>
+</div>
+<div class="cell code" data-execution_count="112" data-colab="{&quot;height&quot;:424,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="3kRWEJRJ6734" data-outputId="b7edb1ba-dd41-4af3-93fb-2cc07edc9226">
+<div class="sourceCode" id="cb28"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(true_sqrtlasso)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="112">
+
+  <div id="df-16693033-e5f5-4684-9035-45e6e024c0e7">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>True Intersections</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>27.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-16693033-e5f5-4684-9035-45e6e024c0e7')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-16693033-e5f5-4684-9035-45e6e024c0e7 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-16693033-e5f5-4684-9035-45e6e024c0e7');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="5azFbV9r6Jog">
+<p>Average L2 Euclidean Distance between predicted and actual beta coefficients</p>
+</div>
+<div class="cell code" data-execution_count="113" data-colab="{&quot;height&quot;:424,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="f92zVjlo68Tl" data-outputId="3d766e4b-5648-499a-a230-e67b6936656c">
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(dist_sqrtlasso)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="113">
+
+  <div id="df-ad527a5c-5cdb-4594-bc2d-50973660ed41">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Euclidean Distance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1.783026</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1.652285</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1.734410</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1.785627</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1.702242</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>1.748020</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>1.826889</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>2.659628</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>1.780879</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>2.000763</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-ad527a5c-5cdb-4594-bc2d-50973660ed41')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-ad527a5c-5cdb-4594-bc2d-50973660ed41 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-ad527a5c-5cdb-4594-bc2d-50973660ed41');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="HeXYgZNA6P-V">
+<p>Average Root Mean Squared Errors</p>
+</div>
+<div class="cell code" data-execution_count="114" data-colab="{&quot;height&quot;:424,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="sVPEqbtM68xH" data-outputId="1425caaf-b0d2-459f-b624-59d5deb0f052">
+<div class="sourceCode" id="cb30"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(rmse_sqrtlasso)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="114">
+
+  <div id="df-e8973807-eeab-4edf-b510-6c7a0f1d16a8">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Root MSE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>4.553098</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>4.887421</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>4.787137</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4.689664</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4.834917</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>4.590682</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>4.219104</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>6.033161</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>4.483386</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>4.167174</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-e8973807-eeab-4edf-b510-6c7a0f1d16a8')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-e8973807-eeab-4edf-b510-6c7a0f1d16a8 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-e8973807-eeab-4edf-b510-6c7a0f1d16a8');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<section id="scad" class="cell markdown" id="H7RqX6lm1qRW">
+<h2>SCAD</h2>
+</section>
+<div class="cell code" data-execution_count="6" id="_54K3NiQlJY4">
+<div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define our SKLearn compliant smoothly clipped absolute deviation function</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> SCAD(BaseEstimator, RegressorMixin):</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, max_iter<span class="op">=</span><span class="dv">1000000</span>, llambda<span class="op">=</span><span class="fl">0.1</span>, alpha<span class="op">=</span><span class="fl">0.1</span>):</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.max_iter, <span class="va">self</span>.llambda, <span class="va">self</span>.alpha <span class="op">=</span> max_iter, llambda, alpha</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> fit(<span class="va">self</span>, x, y):</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>        alpha <span class="op">=</span> <span class="va">self</span>.alpha</span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>        llambda <span class="op">=</span> <span class="va">self</span>.llambda</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a>        max_iter <span class="op">=</span> <span class="va">self</span>.max_iter</span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>        <span class="kw">def</span> scad_model(x, y, llambda, alpha):</span>
+<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a>            n <span class="op">=</span> x.shape[<span class="dv">0</span>]</span>
+<span id="cb31-13"><a href="#cb31-13" aria-hidden="true" tabindex="-1"></a>            p <span class="op">=</span> x.shape[<span class="dv">1</span>]</span>
+<span id="cb31-14"><a href="#cb31-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-15"><a href="#cb31-15" aria-hidden="true" tabindex="-1"></a>        <span class="kw">def</span> scad_penalty(beta_hat, llambda, alpha):</span>
+<span id="cb31-16"><a href="#cb31-16" aria-hidden="true" tabindex="-1"></a>            is_linear <span class="op">=</span> (np.<span class="bu">abs</span>(beta_hat) <span class="op">&lt;=</span> llambda)</span>
+<span id="cb31-17"><a href="#cb31-17" aria-hidden="true" tabindex="-1"></a>            is_quadratic <span class="op">=</span> np.logical_and(llambda <span class="op">&lt;</span> np.<span class="bu">abs</span>(beta_hat), np.<span class="bu">abs</span>(beta_hat) <span class="op">&lt;=</span> alpha <span class="op">*</span> llambda)</span>
+<span id="cb31-18"><a href="#cb31-18" aria-hidden="true" tabindex="-1"></a>            is_constant <span class="op">=</span> (alpha <span class="op">*</span> llambda) <span class="op">&lt;</span> np.<span class="bu">abs</span>(beta_hat)</span>
+<span id="cb31-19"><a href="#cb31-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-20"><a href="#cb31-20" aria-hidden="true" tabindex="-1"></a>            linear_part <span class="op">=</span> llambda <span class="op">*</span> np.<span class="bu">abs</span>(beta_hat) <span class="op">*</span> is_linear</span>
+<span id="cb31-21"><a href="#cb31-21" aria-hidden="true" tabindex="-1"></a>            quadratic_part <span class="op">=</span> (<span class="dv">2</span> <span class="op">*</span> alpha <span class="op">*</span> llambda <span class="op">*</span> np.<span class="bu">abs</span>(beta_hat) <span class="op">-</span> beta_hat<span class="op">**</span><span class="dv">2</span> <span class="op">-</span> llambda<span class="op">**</span><span class="dv">2</span>) <span class="op">/</span> (<span class="dv">2</span> <span class="op">*</span> (alpha <span class="op">-</span> <span class="dv">1</span>)) <span class="op">*</span> is_quadratic</span>
+<span id="cb31-22"><a href="#cb31-22" aria-hidden="true" tabindex="-1"></a>            constant_part <span class="op">=</span> (llambda<span class="op">**</span><span class="dv">2</span> <span class="op">*</span> (alpha <span class="op">+</span> <span class="dv">1</span>)) <span class="op">/</span> <span class="dv">2</span> <span class="op">*</span> is_constant</span>
+<span id="cb31-23"><a href="#cb31-23" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb31-24"><a href="#cb31-24" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> linear_part <span class="op">+</span> quadratic_part <span class="op">+</span> constant_part</span>
+<span id="cb31-25"><a href="#cb31-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-26"><a href="#cb31-26" aria-hidden="true" tabindex="-1"></a>        <span class="kw">def</span> scad_derivative(beta_hat, llambda, alpha):</span>
+<span id="cb31-27"><a href="#cb31-27" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> llambda <span class="op">*</span> ((beta_hat <span class="op">&lt;=</span> llambda) <span class="op">+</span> (alpha <span class="op">*</span> llambda <span class="op">-</span> beta_hat)<span class="op">*</span>((alpha <span class="op">*</span> llambda <span class="op">-</span> beta_hat) <span class="op">&gt;</span> <span class="dv">0</span>) <span class="op">/</span> ((alpha <span class="op">-</span> <span class="dv">1</span>) <span class="op">*</span> llambda) <span class="op">*</span> (beta_hat <span class="op">&gt;</span> llambda))</span>
+<span id="cb31-28"><a href="#cb31-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-29"><a href="#cb31-29" aria-hidden="true" tabindex="-1"></a>        <span class="kw">def</span> scad(beta):</span>
+<span id="cb31-30"><a href="#cb31-30" aria-hidden="true" tabindex="-1"></a>            beta <span class="op">=</span> beta.flatten()</span>
+<span id="cb31-31"><a href="#cb31-31" aria-hidden="true" tabindex="-1"></a>            beta <span class="op">=</span> beta.reshape(<span class="op">-</span><span class="dv">1</span>,<span class="dv">1</span>)</span>
+<span id="cb31-32"><a href="#cb31-32" aria-hidden="true" tabindex="-1"></a>            n <span class="op">=</span> <span class="bu">len</span>(y)</span>
+<span id="cb31-33"><a href="#cb31-33" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="dv">1</span><span class="op">/</span>n<span class="op">*</span>np.<span class="bu">sum</span>((y<span class="op">-</span>x.dot(beta))<span class="op">**</span><span class="dv">2</span>) <span class="op">+</span> np.<span class="bu">sum</span>(scad_penalty(beta, llambda, alpha))</span>
+<span id="cb31-34"><a href="#cb31-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-35"><a href="#cb31-35" aria-hidden="true" tabindex="-1"></a>        <span class="kw">def</span> dscad(beta):</span>
+<span id="cb31-36"><a href="#cb31-36" aria-hidden="true" tabindex="-1"></a>            beta <span class="op">=</span> beta.flatten()</span>
+<span id="cb31-37"><a href="#cb31-37" aria-hidden="true" tabindex="-1"></a>            beta <span class="op">=</span> beta.reshape(<span class="op">-</span><span class="dv">1</span>,<span class="dv">1</span>)</span>
+<span id="cb31-38"><a href="#cb31-38" aria-hidden="true" tabindex="-1"></a>            n <span class="op">=</span> <span class="bu">len</span>(y)</span>
+<span id="cb31-39"><a href="#cb31-39" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> np.array(<span class="op">-</span><span class="dv">2</span><span class="op">/</span>n<span class="op">*</span>np.transpose(x).dot(y<span class="op">-</span>x.dot(beta))<span class="op">+</span>scad_derivative(beta, llambda, alpha)).flatten()</span>
+<span id="cb31-40"><a href="#cb31-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-41"><a href="#cb31-41" aria-hidden="true" tabindex="-1"></a>        beta0 <span class="op">=</span> np.ones((x.shape[<span class="dv">1</span>], <span class="dv">1</span>))</span>
+<span id="cb31-42"><a href="#cb31-42" aria-hidden="true" tabindex="-1"></a>        output <span class="op">=</span> minimize(scad, beta0, method<span class="op">=</span><span class="st">&#39;L-BFGS-B&#39;</span>, jac<span class="op">=</span>dscad, options<span class="op">=</span>{<span class="st">&#39;gtol&#39;</span>:<span class="fl">1e-8</span>,<span class="st">&#39;max_iter&#39;</span>:max_iter,<span class="st">&#39;maxls&#39;</span>:<span class="dv">25</span>,<span class="st">&#39;disp&#39;</span>:<span class="va">True</span>})</span>
+<span id="cb31-43"><a href="#cb31-43" aria-hidden="true" tabindex="-1"></a>        beta <span class="op">=</span> output.x</span>
+<span id="cb31-44"><a href="#cb31-44" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.coef_ <span class="op">=</span> beta</span>
+<span id="cb31-45"><a href="#cb31-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-46"><a href="#cb31-46" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> predict(<span class="va">self</span>, x):</span>
+<span id="cb31-47"><a href="#cb31-47" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> x.dot(<span class="va">self</span>.coef_)</span></code></pre></div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb32"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>scad <span class="op">=</span> SCAD(max_iter<span class="op">=</span><span class="dv">10000</span>)</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>scad_params <span class="op">=</span> {<span class="st">&#39;llambda&#39;</span>:llambda_range, <span class="st">&#39;alpha&#39;</span>:alpha_range}</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>score_scad, true_scad, dist_scad, rmse_scad <span class="op">=</span> test(scad, <span class="st">&#39;SCAD&#39;</span>, scad_params)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="yp4dqSY66FPD">
+<p>Average R^2 Values</p>
+</div>
+<div class="cell code" data-execution_count="8" data-colab="{&quot;height&quot;:424,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="6AQOFYWy7oqx" data-outputId="e93f650b-ee33-4407-8483-7394664509b8">
+<div class="sourceCode" id="cb33"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(score_scad)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="8">
+
+  <div id="df-8e3ef842-185a-48de-894b-0e76b17d2f21">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>R^2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>-0.655823</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>-0.039646</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>-1.080305</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0.062498</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0.080395</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>-1.222586</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>-0.402902</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>-0.262316</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>-0.285892</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>-0.469145</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-8e3ef842-185a-48de-894b-0e76b17d2f21')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-8e3ef842-185a-48de-894b-0e76b17d2f21 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-8e3ef842-185a-48de-894b-0e76b17d2f21');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="cunsKfAU5-ES">
+<p>Average number of true nonzero beta coefficients</p>
+</div>
+<div class="cell code" data-execution_count="9" data-colab="{&quot;height&quot;:424,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="7YrMHriq7pA1" data-outputId="bf49ee3f-10de-4e37-dae5-3c3ce97b3ad7">
+<div class="sourceCode" id="cb34"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(true_scad)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+
+  <div id="df-0d443662-64b2-4b7b-a857-cd3f8965835a">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>True Intersections</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>27.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-0d443662-64b2-4b7b-a857-cd3f8965835a')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-0d443662-64b2-4b7b-a857-cd3f8965835a button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-0d443662-64b2-4b7b-a857-cd3f8965835a');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="8xu9l8Xo6Sfe">
+<p>Average L2 Euclidean Distance between predicted and actual beta coefficients</p>
+</div>
+<div class="cell code" data-execution_count="10" data-colab="{&quot;height&quot;:424,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="ev4lexDK7pZ7" data-outputId="caf46710-498a-4e33-c27b-d700f19107e6">
+<div class="sourceCode" id="cb35"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(dist_scad)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="10">
+
+  <div id="df-e05ceff6-7780-4831-b3b5-511667e8c51e">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Euclidean Distance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>8.088884</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>9.766261</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>9.102905</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>7.860073</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>8.019546</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>8.253637</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>8.895973</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>8.771573</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>9.048015</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>9.638422</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-e05ceff6-7780-4831-b3b5-511667e8c51e')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-e05ceff6-7780-4831-b3b5-511667e8c51e button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-e05ceff6-7780-4831-b3b5-511667e8c51e');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="vc6p52ep6Q9Y">
+<p>Average Root Mean Squared Errors</p>
+</div>
+<div class="cell code" data-execution_count="11" data-colab="{&quot;height&quot;:424,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="LFSbnr5T7p0V" data-outputId="8128707b-4559-425d-defd-7465614c8f75">
+<div class="sourceCode" id="cb36"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(rmse_scad)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+
+  <div id="df-fcecf39f-87d7-437b-855f-2b68f65001ef">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Root MSE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10.303796</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10.897302</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10.824331</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>9.423141</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>9.555414</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>12.419419</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>9.631759</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>10.464579</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>9.633680</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>11.117382</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 1 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-fcecf39f-87d7-437b-855f-2b68f65001ef')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-fcecf39f-87d7-437b-855f-2b68f65001ef button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-fcecf39f-87d7-437b-855f-2b68f65001ef');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+</body>
+</html>
